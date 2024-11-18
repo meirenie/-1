@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.services, .hours, .reviews {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2, .hours h2, .reviews h2 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.service {
+    background-color: #ffe4e1;
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hours p, .reviews p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.review {
+    background-color: #ffe4e1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review strong {
+    color: #ff1493;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff69b4;
+    color: white;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
